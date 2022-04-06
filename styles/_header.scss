@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 30vh;
+    padding: 2rem;
+
+    &__title {
+        font-size: 5rem; //look this up again - sounded very good but not working as intended? 
+    }
+}
+
+.menu {
+
+    &__list {
+        display: flex;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    &__item {
+        padding-left: 2rem;
+    }
+}
