@@ -7,12 +7,15 @@
     padding: 2rem;
     font-family: "Kanit", sans-serif;
     font-style: italic;
-    text-shadow: 2px 2px pink;
+    color: #ff5376;
+    text-shadow: 2.5px 2.5px #f7b7df;
     text-transform: uppercase;
-    text-decoration: underline;
 
     &__title {
         font-size: 5rem; //look this up again - sounded very good but not working as intended? 
+        &:hover {
+            color: #7FEFBD;
+        }
     }
 }
 
@@ -29,6 +32,16 @@
     }
 }
 
+.menu__link {
+    color: #ff5376;
+    text-shadow: 1,5px 1,5px #f7b7df;
+    
+    &:hover {
+        color: #7FEFBD;
+    }
+}
+
 /*need to add hover and pseudo-elements for effects
 colors need to be fixed
-maybe add background image*/
+maybe add background image
+darker color on hover if white/light header*/
