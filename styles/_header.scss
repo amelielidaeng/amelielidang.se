@@ -18,7 +18,7 @@
 
 .menu {
 
-    &__list { 
+    &__list {  //needs to be lowered - check notes for trick
         display: flex;
         list-style: none;
         font-size: 20px;
@@ -28,3 +28,7 @@
         padding-left: 2rem;
     }
 }
+
+/*need to add hover and pseudo-elements for effects
+colors need to be fixed
+maybe add background image*/
