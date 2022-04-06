@@ -1,14 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    max-width: 100vw;
+    width: 100vmax;
     width: 100%;
-    min-height: 100vh; 
+    height: 100vmin; 
     margin: 0; 
     font-family: "Roboto Slab", serif;
+    font-size: 1em;
     color: #333;
 }
 
 section {
-    min-height: 50vh;
+    min-height: 40vh;
     background-color: pink; 
     border: red solid 1px;
     margin: auto;

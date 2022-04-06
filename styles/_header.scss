@@ -3,8 +3,8 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    height: 30vh;
-    padding: 2rem;
+    height: 30vmin;
+    padding: 1rem;
     font-family: "Kanit", sans-serif;
     font-style: italic;
     color: #ff5376;
@@ -12,7 +12,7 @@
     text-transform: uppercase;
 
     &__title {
-        font-size: 5rem; //look this up again - sounded very good but not working as intended? 
+        font-size: 6vw; //look this up again - sounded very good but not working as intended? 
         &:hover {
             color: #7FEFBD;
         }
