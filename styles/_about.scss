@@ -1,0 +1,16 @@
+.about {
+    display: flex; 
+    align-items: center;
+
+    &__image {
+        margin: 2rem;
+        float: left;
+    }
+
+    &__title {
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 600;
+    }
+}

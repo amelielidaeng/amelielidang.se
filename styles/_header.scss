@@ -5,6 +5,11 @@
     justify-content: space-between;
     height: 30vh;
     padding: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px pink;
+    text-transform: uppercase;
+    text-decoration: underline;
 
     &__title {
         font-size: 5rem; //look this up again - sounded very good but not working as intended? 
@@ -13,7 +18,7 @@
 
 .menu {
 
-    &__list {
+    &__list { 
         display: flex;
         list-style: none;
         font-size: 20px;

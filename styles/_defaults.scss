@@ -3,11 +3,12 @@ body {
     width: 100%;
     min-height: 100vh; 
     margin: 0; 
-    /*font-family: "";*/
+    font-family: "Roboto Slab", serif;
+    color: #333;
 }
 
 section {
-    height: 40vh;
+    min-height: 50vh;
     background-color: pink; 
     border: red solid 1px;
     margin: auto;
