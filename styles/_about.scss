@@ -1,6 +1,7 @@
 .about {
     display: flex; 
     align-items: center;
+    padding: 1rem;
 
     &__image {
         margin: 1rem;
@@ -8,10 +9,14 @@
     }
 
     &__title {
-        margin-bottom: 3rem;
+        padding: 0 1rem o 1rem; 
         font-family: "Kanit", sans-serif;
         text-transform: uppercase;
         font-style: italic;
+    }
+
+    &__text {
+        padding: 1rem;
     }
 }
 
