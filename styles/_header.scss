@@ -3,23 +3,21 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    height: 30vh;
-    padding: 2rem;
+    height: 30vmin;
+    padding: 1rem;
+    font-family: "Kanit", sans-serif;
+    font-style: italic;
+    color: #ff5376;
+    text-shadow: 2.5px 2.5px #f7b7df;
+    text-transform: uppercase;
 
     &__title {
-        font-size: 5rem; //look this up again - sounded very good but not working as intended? 
+        font-size: 7vw;
+        &:hover {
+            color: #7FEFBD;
+        }
     }
 }
-
-.menu {
-
-    &__list {
-        display: flex;
-        list-style: none;
-        font-size: 20px;
-    }
-
-    &__item {
-        padding-left: 2rem;
-    }
-}
+/*need to add hover and pseudo-elements for effects
+colors need to be fixed
+maybe add background image*/

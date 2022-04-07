@@ -1,0 +1,52 @@
+$mobile: 320px;
+$tablet: 800px;
+$desktop: 1200px; 
+
+.cv {
+    height: 30vh;
+
+    &__list {
+    }
+
+    &__title {
+        text-transform: uppercase;
+        padding-left: 1em;
+    }
+}
+
+.grid-cv {
+    display: grid; 
+    grid-template-columns: repeat(24, auto);
+    grid-template-rows: repeat(12, 20px);
+    gap: 1rem 1rem;
+}
+
+.cv-item1 {
+    grid-area: 1 / 1 / 2 / 9;
+}
+
+.cv-item2 {
+    grid-area: 1 / 9 / 2 / 17;
+}
+
+.cv-item3 {
+    grid-area: 1 / 17 / 2 / 25;
+}
+
+.cv-item4 {
+    grid-area: 2 / 1 / 7 / 9;
+}
+
+.cv-item5 {
+    grid-area: 2 / 9 / 7 / 17;
+}
+
+.cv-item6 {
+    grid-area: 2 / 17 / 7 / 21; 
+}
+
+.cv-item7 {
+    grid-area: 2 / 21 / 7 / 25;
+}
+
+//Need to add media queries for mobile

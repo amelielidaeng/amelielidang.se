@@ -1,14 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    max-width: 100vw;
+    width: 100vmax;
     width: 100%;
-    min-height: 100vh; 
+    height: 100vmin; 
     margin: 0; 
-    /*font-family: "";*/
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;
+    color: #333;
 }
 
 section {
-    height: 40vh;
-    background-color: pink; 
-    border: red solid 1px;
     margin: auto;
+    padding: 1rem;
+    min-height: 40vh;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn {
+    width: 200px;
+    margin: 5px;
+    border: none;
+}
+
+.headline {
+    display: flex;
+    min-height: 0px;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
 }
