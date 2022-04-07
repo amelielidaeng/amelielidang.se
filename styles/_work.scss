@@ -1,3 +1,23 @@
+.work-heading {
+    display: flex;
+    min-height: 0px;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
 .work {
     height: 100vh;
+    display: flex; 
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    &__card {
+        width: 25rem;
+        border: solid blue 1px;
+        padding: 1em;
+    }
 }
