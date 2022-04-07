@@ -13,10 +13,11 @@ body {
 }
 
 section {
-    min-height: 40vh;
     background-color: pink; 
     border: red solid 1px;
     margin: auto;
+    padding: 1rem;
+    min-height: 40vh;
 }
 
 .link {
@@ -28,4 +29,13 @@ section {
     width: 200px;
     margin: 5px;
     border: none;
+}
+
+.headline {
+    display: flex;
+    min-height: 0px;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
 }
