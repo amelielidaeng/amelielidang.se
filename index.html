@@ -27,7 +27,19 @@
         <button class="btn menu__btn"><a href="#contact" class="link">contact</a></button>
     </div>
     <main>
-        <section class="about" id="about">
+        <section class="about" id="about"> <!--could be done with just flex instead?-->
+            <div class="about__img-container">
+                <img src="/images/img-03-min.jpg" alt="" class="about__img img">
+            </div>
+            <div class="about__text-container">
+                <h3 class="about__title">frontend developer and all-around creative mastermind</h3>
+                <p class="about__text">I am an up-and-coming frontend developer with a passion for writing as little code as possible. 
+                    I love efficiency, structure and comprehensibility, and to make website that are as pretty as they are functional. My background 
+                    in communication, culture studies and textile design gives me a fresh viewpoint on webdesign.
+                </p>
+                <p class="about__text">If you are curious about my other creative outlets, go check out my new <a href="#" class="link">blog!</a></p>
+            </div>
+            <!--
             <div class="grid-about">
                 <div class="grid-about__item">
                     <img src="/images/img-03-min.jpg" alt="" class="about__image img">
@@ -41,6 +53,7 @@
                     <p>If you are curious about my other creative outlets, go check out my new <a href="#" class="link">blog!</a></p>
                 </div>
             </div>
+            -->
         </section>
         <div class="headline" id="projects">
             <h2>projects</h2>
@@ -49,11 +62,13 @@
             <div class="grid-work">
                 <div class="grid-work__item">
                     <div class="card work__card">
-                        <picture> 
-                            <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
-                            <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
-                            <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
-                        </picture>
+                        <div class="work__img">
+                            <picture> 
+                                <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
+                                <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
+                                <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
+                            </picture>
+                        </div>
                         <h3 class="work__card-title">Bhromaon</h3>
                         <p class="work__info">
                             Website created as a school assignment. We were given a Figma image and 12 hours to recreate as a functioning website 
@@ -73,11 +88,13 @@
                 </div>
                 <div class="grid-work__item">
                     <div class="card work__card">
-                        <picture> 
-                            <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
-                            <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
-                            <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
-                        </picture>
+                        <div class="work__img">
+                            <picture> 
+                                <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
+                                <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
+                                <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
+                            </picture>
+                        </div>
                         <h3 class="work__card-title">Konst och Ram</h3>
                         <p class="work__info">
                             Website for a local guilder and framer. Bengt already had a website that was in need of some updates so I made a simple and 

@@ -2,19 +2,34 @@ $mobile: 320px; //default
 $tablet: 800px; 
 $desktop: 1200px; 
 
+
+
+@media screen and (min-width: $tablet) {
+    .about {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .about__text-container {
+        width: 70vw;
+        margin-left: .5rem;
+    }
+}
+
+/*
 @media screen and (min-width: $tablet) {
     .about {
         display: flex; 
         align-items: center;
         padding: 1rem;
     
-        &__image {
+        &__img {
             margin-right: 1rem;
             float: left;
         }
     
         &__title {
-            padding: 0 1rem o 1rem; 
+            padding: 0 1rem 0 1rem; 
             font-family: "Kanit", sans-serif;
             text-transform: uppercase;
             font-style: italic;
@@ -25,3 +40,4 @@ $desktop: 1200px;
         }
     }
 }
+*/
