@@ -2,7 +2,10 @@ $mobile: 320px; //default
 $tablet: 800px; 
 $desktop: 1200px; 
 
-
+.about__title {
+    margin-top: 0;
+    padding-left: 0;
+}
 
 @media screen and (min-width: $tablet) {
     .about {

@@ -7,6 +7,7 @@ $desktop: 1200px;
 }
 
 body {
+    background-color: rgb(255, 232, 232);
     width: 100vmax;
     width: 100%;
     height: 100vmin; 
@@ -20,7 +21,7 @@ section {
     margin: auto;
     padding: 1rem;
     min-height: 40vh;
-    background-color: rgb(255, 197, 197);
+    border: 1px solid lightgray
 }
 
 .link {
@@ -37,8 +38,35 @@ section {
 .headline {
     padding-left: 1rem;
     font-family: "Kanit", sans-serif;
+    color: #ff5376;
+    text-shadow: 1.5px 1.5px #f7b7df;
     text-transform: uppercase;
     font-style: italic;
+    position: relative;
+    padding-bottom: 4px;
+
+    &:hover {
+        color: #7FEFBD;
+    }
+}
+
+.headline::after {
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: currentColor; //what happens if not using this? 
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 350ms ease-in;
+}
+
+.headline:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 .img {
