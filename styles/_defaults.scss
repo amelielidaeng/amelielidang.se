@@ -1,3 +1,7 @@
+$mobile: 320px; //default
+$tablet: 768px; 
+$desktop: 1000px;
+
 * {
     box-sizing: border-box;
 }
@@ -6,7 +10,7 @@ body {
     width: 100vmax;
     width: 100%;
     height: 100vmin; 
-    margin: 0; 
+    margin: auto; 
     font-family: "Roboto Slab", serif;
     font-size: 1em;
     color: #333;
@@ -16,6 +20,7 @@ section {
     margin: auto;
     padding: 1rem;
     min-height: 40vh;
+    background-color: rgb(255, 197, 197);
 }
 
 .link {
@@ -30,10 +35,13 @@ section {
 }
 
 .headline {
-    display: flex;
-    min-height: 0px;
-    justify-content: center;
+    padding-left: 1rem;
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
     font-style: italic;
+}
+
+.img {
+//    padding: 1em;
+
 }

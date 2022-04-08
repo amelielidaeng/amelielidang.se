@@ -21,51 +21,46 @@
         </div>
     </header>
     <div class="menu">
-        <button class="btn menu__btn">hello</button>
-        <button class="btn menu__btn">hi</button>
-        <button class="btn menu__btn">hola</button>
-        <button class="btn menu__btn">hey</button>
+        <button class="btn menu__btn"><a href="#about" class="link">about</a></button>
+        <button class="btn menu__btn"><a href="#projects" class="link">projects</a></button>
+        <button class="btn menu__btn"><a href="#cv" class="link">CV</a></button>
+        <button class="btn menu__btn"><a href="#contact" class="link">contact</a></button>
     </div>
     <main>
-        <section class="about">
+        <section class="about" id="about">
             <div class="grid-about">
                 <div class="grid-about__item">
-                    <img src="/images/img-03-min.jpg" alt="" class="about__image">
+                    <img src="/images/img-03-min.jpg" alt="" class="about__image img">
                 </div>
                 <div class="grid-about__item">
-                    <h3 class="about__title">frontend developer and all-around creative genius</h3>
+                    <h3 class="about__title">frontend developer and all-around creative mastermind</h3>
                 </div>
                 <div class="grid-about__item">
-                    <p class="about__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo expedita 
-                        facere hic, veniam dignissimos quis adipisci debitis labore a quo numquam nostrum perferendis, 
-                        unde eius voluptatibus explicabo incidunt? Nam odit non aliquam, praesentium, ipsum voluptate 
-                        explicabo vitae ducimus obcaecati assumenda culpa, quis natus quos sit alias laborum asperiores 
-                        quae molestias!
+                    <p class="about__text">I am an up-and-coming frontend developer with a passion for writing as little code as possible. I love efficiency, structure and comprehensibility, and to make website that are as pretty as they are functional. My background in communication, culture studies and textile design gives me a fresh viewpoint on webdesign.  
                     </p>
+                    <p>If you are curious about my other creative outlets, go check out my new <a href="#" class="link">blog!</a></p>
                 </div>
             </div>
         </section>
-        <div class="headline">
+        <div class="headline" id="projects">
             <h2>projects</h2>
         </div>
         <section class="work">
             <div class="grid-work">
                 <div class="grid-work__item">
                     <div class="card work__card">
-                        <div class="work__img">
-                            <img src="/images/img-03-min.jpg" alt="">
-                        </div>
-                        <h3 class="work__card-title">title here</h3>
+                        <picture> 
+                            <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
+                            <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
+                            <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
+                        </picture>
+                        <h3 class="work__card-title">Bhromaon</h3>
                         <p class="work__info">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            Molestiae architecto iusto magnam aliquid vitae, mollitia 
-                            adipisci modi, fugiat aut soluta ullam expedita earum quia 
-                            iste error consequatur odio incidunt doloribus illum ducimus 
-                            provident neque inventore. Minima animi commodi repellat enim 
-                            ratione neque natus rerum voluptatem aliquid, itaque doloribus 
-                            nostrum nam?
+                            Website created as a school assignment. We were given a Figma image and 12 hours to recreate as a functioning website 
+                            with responsive elements. The website is a one-page landing site featuring CSS grids, 
                         </p>
-                        <div class="work__">
+                        <p><a href="#" class="link">Go check it out!</a></p> <!--should link be in image?-->
+                        <div>
                             <p>techniques used:</p>
                             <ul class="work__list">
                                 <li>html and css</li>
@@ -78,47 +73,38 @@
                 </div>
                 <div class="grid-work__item">
                     <div class="card work__card">
-                        <div class="work__img">
-                            <img src="/images/img-03-min.jpg" alt="">
-                        </div>
-                        <h3 class="work__card-title">title here</h3>
+                        <picture> 
+                            <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
+                            <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
+                            <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
+                        </picture>
+                        <h3 class="work__card-title">Konst och Ram</h3>
                         <p class="work__info">
-                            Lorem ipsum dolor sit amet consectetur adipisicing 
-                            elit. Ex dolorem neque delectus. Delectus animi explicabo, maxime 
-                            nam quidem voluptas ex. Non quas, eum perspiciatis recusandae enim 
-                            nostrum doloribus quis repudiandae delectus iste sed autem atque 
-                            natus minus mollitia debitis quibusdam odio praesentium repellat 
-                            totam. Aliquid, quasi officia. Reprehenderit velit sunt dolorem 
-                            aspernatur nam id quod repellendus debitis nesciunt tempore 
-                            accusantium, dolor, ex animi reiciendis magnam eos minima eveniet 
-                            error minus harum molestiae fugit? Facilis tempore at, illo vel 
-                            sed neque.
+                            Website for a local guilder and framer. Bengt already had a website that was in need of some updates so I made a simple and 
+                            elegant page to let the frames and guilding speak for itself. The aim was to make a repsonsive layout with a clean look and a layout that 
+                            is easy to comprehend. We decided that the most important aspects were the contact information and a gallery showcasing Bengt's skills. 
                         </p>
-                        <div class="work__">
+                        <p><a href="#" class="link">Go check it out!</a></p>
+                        <div>
                             <p>techniques used:</p>
                             <ul class="work__list">
                                 <li>html and css</li>
-                                <li>bootstrap</li>
-                                <li>figma</li>
                                 <li>sass</li>
+                                <li>JavaScript</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="grid-work__item">
                     <div class="card work__card">
-                        <div class="work__img">
-                            <img src="/images/img-03-min.jpg" alt="">
-                        </div>
-                        <h3 class="work__card-title">title here</h3>
+                        <picture> 
+                            <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
+                            <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
+                            <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
+                        </picture>
+                        <h3 class="work__card-title">Mikko P Glas</h3>
                         <p class="work__info">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            Molestiae architecto iusto magnam aliquid vitae, mollitia 
-                            adipisci modi, fugiat aut soluta ullam expedita earum quia 
-                            iste error consequatur odio incidunt doloribus illum ducimus 
-                            provident neque inventore. Minima animi commodi repellat enim 
-                            ratione neque natus rerum voluptatem aliquid, itaque doloribus 
-                            nostrum nam?
+                            Mikko was in need of a website with contact information and links to his shop at Tradera.se. In order to boost traffic for his sales I focused on SEO. 
                         </p>
                         <div>
                             <p>techniques used:</p>
@@ -133,46 +119,40 @@
                 </div>
             </div>
         </section>
-        <div class="headline">
+        <div class="headline" id="cv">
             <h2>experience</h2>
         </div>
         <section class="cv">
             <div class="grid-cv">
-                <div class="cv__title cv-item1">
+                <h3 class="cv__title cv-item1">
                     education
-                </div>
-                <div class="cv__title cv-item2">
-                    work experience
-                </div>
-                <div class="cv__title cv-item3">
-                    skills
-                </div>
+                </h3>
                 <div class="cv__list cv-item4">
                     <ul>
-                        <li>skola</li>
-                        <li>skola</li>
-                        <li>skola</li>
-                        <li>skola</li>
+                        <li>FrontEnd developer, Sundsgårdens folkhögskola 2022</li>
+                        <li>Textile Innovation and Circular Textiles, Borås Textilhögskola 2021-2022</li>
+                        <li>Intermedial studies, 90hp, Lunds Universitet 2012-14</li>
+                        <li>Textile creations, advandced course, Önnestad Folkhögskola 2012</li>
                     </ul>
                 </div>
+                <h3 class="cv__title cv-item2">
+                    work experience
+                </h3>
                 <div class="cv__list cv-item5">
                     <ul>
-                        <li>jobb</li>
-                        <li>jobb</li>
-                        <li>jobb</li>
-                        <li>jobb</li>
+                        <li>Customer Service Agent and Assistant Trainer, Concentrix, 2016-2022</li>
+                        <li>Self-employed textile and clothing designer, 2012-2018</li>
                     </ul>
                 </div>
+                <h3 class="cv__title cv-item3">
+                    skills
+                </h3>
                 <div class="cv__list cv-item6">
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Sass</li>
                         <li>Bootstrap</li>
-                    </ul>
-                </div>
-                <div class="cv__list cv-item7">
-                    <ul>
                         <li>JavaScript</li>
                         <li>Figma</li>
                         <li>WordPress</li>
@@ -181,7 +161,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <form action="" class="contact__form">
                 <label for="name"></label>
                 <input type="text" id="name" placeholder="Your name" class="form">
