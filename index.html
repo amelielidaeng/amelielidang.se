@@ -54,12 +54,14 @@
                                 <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
                             </picture>
                         </div>
-                        <h3 class="work__card-title">Bhromaon</h3>
+                        <div class="work__title">
+                            <h3 class="work__card-title">Bhromaon</h3>
+                            <button class="btn work__btn"><a href="#">to website</a></button>
+                        </div>
                         <p class="work__info">
                             Website created as a school assignment. We were given a Figma image and 12 hours to recreate as a functioning website 
                             with responsive elements. The website is a one-page landing site featuring CSS grids, 
                         </p>
-                        <p><a href="#" class="link">Go check it out!</a></p> <!--should link be in image?-->
                         <div>
                             <p>techniques used:</p>
                             <ul class="work__list">
@@ -80,13 +82,16 @@
                                 <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
                             </picture>
                         </div>
-                        <h3 class="work__card-title">Konst och Ram</h3>
+                        <div class="work__title">
+                            <h3 class="work__card-title">Konst och Ram</h3>
+                            <button class="btn work__btn"><a href="#">to website</a></button>
+                        </div>
                         <p class="work__info">
                             Website for a local guilder and framer. Bengt already had a website that was in need of some updates so I made a simple and 
                             elegant page to let the frames and guilding speak for itself. The aim was to make a repsonsive layout with a clean look and a layout that 
                             is easy to comprehend. We decided that the most important aspects were the contact information and a gallery showcasing Bengt's skills. 
                         </p>
-                        <p><a href="#" class="link">Go check it out!</a></p>
+                        <p><a href="#" class="link">Check it out here!</a></p>
                         <div>
                             <p>techniques used:</p>
                             <ul class="work__list">
@@ -99,12 +104,17 @@
                 </div>
                 <div class="grid-work__item">
                     <div class="card work__card">
-                        <picture> 
-                            <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
-                            <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
-                            <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
-                        </picture>
-                        <h3 class="work__card-title">Mikko P Glas</h3>
+                        <div class="work__img">
+                            <picture> 
+                                <source media="(min-width: 1400px)" srcset="/images/bhromaon-med.png">
+                                <source media="(min-width: 400px)" srcset="/images/bhromaon-350.png">
+                                <img src="/images/bhromaon-min.png" alt="screenshot of website with hotel bungalows">
+                            </picture>
+                        </div>
+                        <div class="work__title">
+                            <h3 class="work__card-title">Mikkos Glasrike</h3>
+                            <button class="btn work__btn"><a href="#">to website</a></button>
+                        </div>
                         <p class="work__info">
                             Mikko was in need of a website with contact information and links to his shop at Tradera.se. In order to boost traffic for his sales I focused on SEO. 
                         </p>
@@ -163,7 +173,10 @@
                 </div>
             </div>
         </section>
-        <section class="contact" id="contact">
+        <div id="contact">
+            <h2 class="headline">projects</h2>
+        </div>
+        <section class="contact">
             <form action="" class="contact__form">
                 <label for="name"></label>
                 <input type="text" id="name" placeholder="Your name" class="form">

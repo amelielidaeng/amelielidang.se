@@ -33,17 +33,18 @@ section {
     width: 200px;
     margin: 5px;
     border: none;
+    text-decoration: none;
 }
 
 .headline {
     padding-left: 1rem;
+    padding-bottom: .2rem;
     font-family: "Kanit", sans-serif;
     color: #ff5376;
     text-shadow: 1.5px 1.5px #f7b7df;
     text-transform: uppercase;
     font-style: italic;
     position: relative;
-    padding-bottom: 4px;
 
     &:hover {
         color: #7FEFBD;
@@ -57,16 +58,18 @@ section {
     bottom: 0;
     width: 100%;
     height: 3px;
-    background: currentColor; //what happens if not using this? 
+    background: currentColor; 
+    box-shadow: 1,5px 1,5px 0 0 #f7b7df;
 
     transform: scaleX(0);
     transform-origin: right;
-    transition: transform 350ms ease-in;
+    transition: transform 250ms ease-in;
 }
 
 .headline:hover::after {
     transform: scaleX(1);
     transform-origin: left;
+    box-shadow: 1,5px 1,5px 0 0 #f7b7df;
 }
 
 .img {
