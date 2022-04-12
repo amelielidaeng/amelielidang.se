@@ -18,10 +18,12 @@ body {
 }
 
 section {
+    display: flex;
+    align-content: center;
     margin: auto;
     padding: 1rem;
     min-height: 40vh;
-    border: 1px solid lightgray
+//    border: 1px solid lightgray
 }
 
 .link {
@@ -30,7 +32,7 @@ section {
 }
 
 .btn {
-    width: 200px;
+    width: 180px;
     margin: 5px;
     border: none;
     text-decoration: none;
@@ -63,11 +65,13 @@ section {
     padding-left: 1rem;
     padding-bottom: .2rem;
     font-family: "Kanit", sans-serif;
+    font-size: 30px;
     color: #ff5376;
     text-shadow: 1.5px 1.5px #f7b7df;
     text-transform: uppercase;
     font-style: italic;
     position: relative;
+    background-color: rgb(253, 214, 215);
 
     &:hover {
         color: #7FEFBD;
