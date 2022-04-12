@@ -26,7 +26,7 @@ section {
 
 .link {
     text-decoration: none;
-    color: #333;
+    color: white;
 }
 
 .btn {
@@ -34,6 +34,29 @@ section {
     margin: 5px;
     border: none;
     text-decoration: none;
+    background-color: #ff5376;
+    padding: 5px;
+    position: relative; 
+    z-index: 1;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7FEFBD;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 200ms ease-in;
+}
+
+.btn:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 .headline {
@@ -72,6 +95,3 @@ section {
     box-shadow: 1,5px 1,5px 0 0 #f7b7df;
 }
 
-.img {
-//    padding: 1em;
-}
