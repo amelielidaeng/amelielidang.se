@@ -1,0 +1,72 @@
+$mobile: 320px; //default
+$tablet: 800px; 
+$desktop: 1200px;
+
+* {
+    margin: 0 auto; 
+    box-sizing: border-box;
+    max-width: 1600px;
+    color: #333;
+    line-height: 125%;
+    font-family: "Lora", serif;
+}
+
+body {
+    background-color: #ececec;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.button {
+    padding: 5px 10px 5px 10px;
+    margin: 0 5px 0 5px;
+    font-size: 14px;
+}
+
+@media screen and (min-width: $tablet) {
+    .button {
+        font-size: 16px; 
+        margin: 0 10px 0 10px;
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .button {
+        font-size: 18px;
+        width: 160px;
+    }
+}
+
+.grid-item {
+    max-width: 280px;
+//    border: red solid 1px;
+}
+
+img {
+    max-width: 280px;
+    height: auto;
+}
+
+@media screen and (min-width: $tablet) {
+    img {
+        max-width: 350px;
+    }
+
+    .grid-item {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    img {
+        max-width: 380px;
+    }
+
+    .grid-item {
+        max-width: 380px;
+    }
+}
