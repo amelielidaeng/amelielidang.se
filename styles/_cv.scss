@@ -4,11 +4,12 @@ $desktop: 1200px;
 
 .cv {
     padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .cv__title {
-//    margin-left: 1rem;
-//    padding-top: 1rem;
+    margin-left: 1rem;
     text-transform: uppercase;
 }
 

@@ -32,17 +32,19 @@ section {
 
 .text__link {
     color: #333;
+    font-style: bold;
 
     &:hover {
-        color: #7FEFBD;
+        background-color: #7FEFBD;
     }
 }
 
 .btn {
-    width: 180px;
+    width: 20vw;
     margin: 5px;
     border: none;
     text-decoration: none;
+    color: white;
     background-color: #ff5376;
     padding: 5px;
     position: relative; 
@@ -66,6 +68,12 @@ section {
 .btn:hover::after {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+@media screen and(min-width: $tablet) {
+    .btn {
+        max-width: 180px;
+    }
 }
 
 .headline {
