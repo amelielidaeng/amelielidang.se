@@ -1,0 +1,54 @@
+$mobile: 320px; 
+$tablet: 768px;
+$desktop: 1200px;
+
+.footer { 
+    background-color: #232323;
+    max-width: 1770px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    &__headline {
+        font-family: "Josefin Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 3.36px;
+        color: #FFFFFF;
+    }
+
+    &__tagline {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+        color: #FFFFFF;
+    }
+
+    &__list {
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding-left: 10px;
+    }
+}
+
+.sm-icon {
+    margin: 10px;
+}

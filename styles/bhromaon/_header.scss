@@ -1,0 +1,84 @@
+$mobile: 320px; 
+$tablet: 768px;
+$desktop: 1200px;
+
+.header {
+    max-width: 1770px;
+    min-height: 820px;
+    text-align: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url(/images/section1-background.png);
+
+    &__container {
+        max-width: 372px;
+        min-height: 72px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    }
+
+    &__title {
+        font-family: "Josefin Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 26px;
+        letter-spacing: 4.8px;
+        color: #FFFFFF;
+    }
+
+    &__tagline  {
+        font-family: "Josefin Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 6.82px;
+        color: #FFFFFF;
+    }
+
+    &__scroll {
+        color: white;
+    }
+
+    &__form { 
+        -ms-flex-item-align: center; 
+            -ms-grid-row-align: center; 
+            align-self: center; 
+        background-color: white;
+    }
+
+    &__input { 
+        width: 500px;
+        height: 63px;
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+        color: #999999;
+
+        @media screen and (max-width: $tablet) {
+            width: 200px;
+            letter-spacing: 2px;
+        }
+    }
+}
