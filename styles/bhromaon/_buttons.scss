@@ -1,0 +1,38 @@
+.button {
+    background-color: #5474FD;
+    color: white;
+
+    &__explore {
+        background-color: #5474FD;
+        max-width: 228px;
+        min-height: 63px;
+    }
+
+    &__book {
+        width: 228px;
+        height: 63px;
+        background-color: #5474FD;
+        margin-top: 15px;
+    }
+}
+
+.submit {
+    width: 153px;
+    height: 63px;
+    border: white 2px solid;
+    background-color: #5474FD;
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    
+    @media screen and (max-width: $tablet) {
+        width: 100px;
+    }
+}
