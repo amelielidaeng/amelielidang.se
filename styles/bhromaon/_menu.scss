@@ -45,7 +45,7 @@ $desktop: 1200px;
  .toggle-button {
     position: absolute; 
     right: 20px;
-    top: 850px;
+    top: 30px;
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -62,11 +62,11 @@ $desktop: 1200px;
 
  @media (max-width: $tablet) {
     .toggle-button {
-       display: flex;
+        display: flex;
     }
 
     .navbar-links {
-       display: none;
+        display: none;
         width: 100%;
     }
 
