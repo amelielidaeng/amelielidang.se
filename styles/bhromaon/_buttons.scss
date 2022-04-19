@@ -20,7 +20,7 @@
     width: 153px;
     height: 63px;
     border: white 2px solid;
-    background-color: #5474FD;
+    background-color: #5474fd;
     font-family: "Aleo", serif;
     font-style: normal;
     font-weight: normal;
@@ -30,9 +30,13 @@
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #FFFFFF;
-
     
     @media screen and (max-width: $tablet) {
         width: 100px;
     }
+}
+
+.submit:hover {
+    opacity: 95%;
+    background-color: #3063fd;
 }

@@ -6,7 +6,7 @@ $desktop: 1200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #5474FD;
+    background-color: #5474fd;
     color: white;
     max-width: 1770px;
     width: 100%;
@@ -88,56 +88,3 @@ $desktop: 1200px;
         display: flex;
     }
  }
-
-/*
-.menu {
-    background-color: #5474FD;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    max-width: 1770px;
-    width: 100%;
-    min-height: 83px;
-
-    &__logo {
-        font-family: "Josefin Sans", sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 26px;
-        letter-spacing: 2.4px;
-        color: #FFFFFF;
-    }
-
-    &__list {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        list-style: none;
-        font-family: "Aleo", serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 26px;
-        display: flex;
-        color: #FFFFFF;
-        
-        .list__item {
-            padding-right: 3em;
-        }
-    }
-} 
-*/
